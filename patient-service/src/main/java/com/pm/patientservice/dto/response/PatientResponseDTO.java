@@ -1,4 +1,4 @@
-package com.pm.patientservice.dto;
+package com.pm.patientservice.dto.response;
 
 public record PatientResponseDTO(
         String id,
