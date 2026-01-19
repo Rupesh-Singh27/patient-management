@@ -60,4 +60,9 @@ public class PatientServiceImpl implements PatientService {
 
         return patientMapper.mapPatientToPatientResponseDTO(updatedPatient);
     }
+
+    @Override
+    public void deletePatientById(UUID patientId) {
+        patientRepository.deleteById(patientId);
+    }
 }
