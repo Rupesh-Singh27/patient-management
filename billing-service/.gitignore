@@ -1,0 +1,78 @@
+####################################
+# Maven / Java
+####################################
+target/
+*.class
+*.log
+hs_err_pid*
+
+####################################
+# Maven Wrapper
+####################################
+# Track wrapper scripts & properties
+!.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!mvnw.cmd
+
+# Ignore downloaded wrapper JAR
+.mvn/wrapper/maven-wrapper.jar
+
+####################################
+# IDEs
+####################################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+.factorypath
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+####################################
+# OS / Editor junk
+####################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*~
+.#*
+*#
+
+####################################
+# Git merge backups
+####################################
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+####################################
+# Build tools
+####################################
+.gradle/
+build/
